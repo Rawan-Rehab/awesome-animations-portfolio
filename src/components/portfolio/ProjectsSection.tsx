@@ -16,7 +16,7 @@ const projects = [
       "Responsive design for all devices",
       "Shopping cart functionality"
     ],
-    demoUrl: "https://amazon-ecommerce-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
     githubUrl: "https://github.com/Rawan-Rehab/amazon_ecommerce.git"
   },
   {
@@ -30,7 +30,7 @@ const projects = [
       "Real-time updates",
       "Modern responsive UI"
     ],
-    demoUrl: "https://admin-dashboard-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
     githubUrl: "https://github.com/Rawan-Rehab/admin-dashboard.git"
   },
   {
@@ -44,7 +44,7 @@ const projects = [
       "Mobile responsive",
       "SEO optimized"
     ],
-    demoUrl: "https://landing-page-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
     githubUrl: "https://github.com/Rawan-Rehab/LANDING_PAGE.git"
   }
 ];
@@ -111,16 +111,26 @@ export const ProjectsSection = () => {
               </div>
               
               <div className="flex gap-2">
-                <Button 
-                  asChild
-                  size="sm" 
-                  className="flex-1 bg-primary hover:bg-primary-glow transition-all duration-300"
-                >
-                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={14} className="mr-1" />
-                    Live Demo
-                  </a>
-                </Button>
+                {project.demoUrl ? (
+                  <Button 
+                    asChild
+                    size="sm" 
+                    className="flex-1 bg-primary hover:bg-primary-glow transition-all duration-300"
+                  >
+                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink size={14} className="mr-1" />
+                      Live Demo
+                    </a>
+                  </Button>
+                ) : (
+                  <Button 
+                    size="sm" 
+                    className="flex-1 bg-primary/40 text-primary-foreground/70"
+                    disabled
+                  >
+                    Live Demo (Coming Soon)
+                  </Button>
+                )}
                 <Button 
                   asChild
                   size="sm" 
