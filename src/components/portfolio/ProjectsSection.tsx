@@ -30,7 +30,7 @@ const projects = [
       "Real-time updates",
       "Modern responsive UI"
     ],
-    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
+    demoUrl: "https://rawan-rehab.github.io/design/",
     githubUrl: "https://github.com/Rawan-Rehab/admin-dashboard.git"
   },
   {
