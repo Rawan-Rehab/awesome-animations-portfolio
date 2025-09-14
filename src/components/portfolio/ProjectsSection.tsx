@@ -34,20 +34,6 @@ const projects = [
     githubUrl: "https://github.com/Rawan-Rehab/design.git"
   },
   {
-    title: "Admin Dashboard",
-    period: "02/2025 – 03/2025",
-    description: "A modern admin dashboard with comprehensive data visualization and management capabilities. Built with React and modern UI libraries for optimal performance.",
-    technologies: ["React.js", "Tailwind CSS", "JavaScript"],
-    features: [
-      "Data visualization charts",
-      "User management system",
-      "Real-time updates",
-      "Modern responsive UI"
-    ],
-    demoUrl: "",
-    githubUrl: "https://github.com/Rawan-Rehab/admin-dashboard.git"
-  },
-  {
     title: "Landing Page",
     period: "02/2025 – 03/2025",
     description: "It was created by using HTML, CSS, JavaScript, Bootstrap. A beautiful and interactive landing page with smooth animations and modern design.",
