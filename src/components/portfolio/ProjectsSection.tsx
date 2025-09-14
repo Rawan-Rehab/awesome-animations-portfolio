@@ -16,8 +16,8 @@ const projects = [
       "Responsive design for all devices",
       "Shopping cart functionality"
     ],
-    demoUrl: "https://amazon-ecommerce-demo.netlify.app",
-    githubUrl: "https://github.com/rawanrehab/amazon-ecommerce"
+    demoUrl: "https://amazon-ecommerce-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    githubUrl: "https://github.com/Rawan-Rehab/amazon_ecommerce.git"
   },
   {
     title: "Admin Dashboard",
