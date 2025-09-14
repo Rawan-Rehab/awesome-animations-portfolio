@@ -16,7 +16,7 @@ const projects = [
       "Responsive design for all devices",
       "Shopping cart functionality"
     ],
-    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
+    demoUrl: "https://rawan-rehab.github.io/amazon_ecommerce/",
     githubUrl: "https://github.com/Rawan-Rehab/amazon_ecommerce.git"
   },
   {
