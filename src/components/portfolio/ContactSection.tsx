@@ -60,10 +60,10 @@ export const ContactSection = () => {
             <div className="mt-8 pt-6 border-t border-glass-border">
               <h4 className="font-medium mb-4">Connect with me</h4>
               <div className="flex gap-3">
-                <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" onClick={() => window.open('https://github.com/rawanrehab', '_blank')}>
                   <Github size={16} />
                 </Button>
-                <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" onClick={() => window.open('https://linkedin.com/in/rawanrehab', '_blank')}>
                   <Linkedin size={16} />
                 </Button>
               </div>
@@ -84,6 +84,7 @@ export const ContactSection = () => {
                   variant="secondary" 
                   size="lg" 
                   className="w-full bg-white/10 hover:bg-white/20 border-white/20 backdrop-blur-sm"
+                  onClick={() => window.open('mailto:rawanrehab929@gmail.com?subject=Work Opportunity&body=Hi Rawan, I would like to discuss a project with you.', '_blank')}
                 >
                   <Send className="mr-2" size={18} />
                   Send Message

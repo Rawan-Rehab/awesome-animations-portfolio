@@ -15,7 +15,9 @@ const projects = [
       "Product catalog with detailed views",
       "Responsive design for all devices",
       "Shopping cart functionality"
-    ]
+    ],
+    demoUrl: "https://amazon-ecommerce-demo.netlify.app",
+    githubUrl: "https://github.com/rawanrehab/amazon-ecommerce"
   },
   {
     title: "Admin Dashboard",
@@ -27,7 +29,9 @@ const projects = [
       "User management system",
       "Real-time updates",
       "Modern responsive UI"
-    ]
+    ],
+    demoUrl: "https://admin-dashboard-demo.netlify.app",
+    githubUrl: "https://github.com/rawanrehab/admin-dashboard"
   },
   {
     title: "Landing Page",
@@ -39,7 +43,9 @@ const projects = [
       "Interactive elements",
       "Mobile responsive",
       "SEO optimized"
-    ]
+    ],
+    demoUrl: "https://landing-page-demo.netlify.app",
+    githubUrl: "https://github.com/rawanrehab/landing-page"
   }
 ];
 
@@ -108,6 +114,7 @@ export const ProjectsSection = () => {
                 <Button 
                   size="sm" 
                   className="flex-1 bg-primary hover:bg-primary-glow transition-all duration-300"
+                  onClick={() => window.open(project.demoUrl, '_blank')}
                 >
                   <ExternalLink size={14} className="mr-1" />
                   Live Demo
@@ -116,6 +123,7 @@ export const ProjectsSection = () => {
                   size="sm" 
                   variant="outline"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open(project.githubUrl, '_blank')}
                 >
                   <Github size={14} />
                 </Button>

@@ -54,6 +54,12 @@ export const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-elegant"
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/Rawan-Mohamed-Rehab-CV.pdf';
+                link.download = 'Rawan-Mohamed-Rehab-CV.pdf';
+                link.click();
+              }}
             >
               <Download className="mr-2" size={18} />
               Download CV
@@ -62,6 +68,12 @@ export const HeroSection = () => {
               variant="outline" 
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                const element = document.getElementById('projects');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               View Projects
             </Button>
