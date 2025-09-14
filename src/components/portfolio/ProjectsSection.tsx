@@ -44,8 +44,8 @@ const projects = [
       "Mobile responsive",
       "SEO optimized"
     ],
-    demoUrl: "https://landing-page-demo.netlify.app",
-    githubUrl: "https://github.com/rawanrehab/landing-page"
+    demoUrl: "https://landing-page-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    githubUrl: "https://github.com/Rawan-Rehab/LANDING_PAGE.git"
   }
 ];
 
