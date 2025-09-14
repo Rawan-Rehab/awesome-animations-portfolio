@@ -30,8 +30,8 @@ const projects = [
       "Real-time updates",
       "Modern responsive UI"
     ],
-    demoUrl: "https://admin-dashboard-demo.netlify.app",
-    githubUrl: "https://github.com/rawanrehab/admin-dashboard"
+    demoUrl: "https://admin-dashboard-demo.netlify.app", // يمكن تحديثه عند توفر رابط حقيقي
+    githubUrl: "https://github.com/Rawan-Rehab/admin-dashboard.git"
   },
   {
     title: "Landing Page",
