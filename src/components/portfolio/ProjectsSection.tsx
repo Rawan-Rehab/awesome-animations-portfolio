@@ -20,6 +20,20 @@ const projects = [
     githubUrl: "https://github.com/Rawan-Rehab/amazon_ecommerce.git"
   },
   {
+    title: "Design Project",
+    period: "02/2025 – 03/2025",
+    description: "A creative design project showcasing modern web design principles with interactive elements and beautiful visual components. Built with focus on user experience and aesthetic appeal.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Design"],
+    features: [
+      "Modern design aesthetics",
+      "Interactive user interface",
+      "Creative visual elements",
+      "Responsive layout"
+    ],
+    demoUrl: "https://rawan-rehab.github.io/design/",
+    githubUrl: "https://github.com/Rawan-Rehab/design.git"
+  },
+  {
     title: "Admin Dashboard",
     period: "02/2025 – 03/2025",
     description: "A modern admin dashboard with comprehensive data visualization and management capabilities. Built with React and modern UI libraries for optimal performance.",
@@ -30,7 +44,7 @@ const projects = [
       "Real-time updates",
       "Modern responsive UI"
     ],
-    demoUrl: "https://rawan-rehab.github.io/design/",
+    demoUrl: "",
     githubUrl: "https://github.com/Rawan-Rehab/admin-dashboard.git"
   },
   {
