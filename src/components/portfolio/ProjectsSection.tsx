@@ -112,20 +112,24 @@ export const ProjectsSection = () => {
               
               <div className="flex gap-2">
                 <Button 
+                  asChild
                   size="sm" 
                   className="flex-1 bg-primary hover:bg-primary-glow transition-all duration-300"
-                  onClick={() => window.open(project.demoUrl, '_blank')}
                 >
-                  <ExternalLink size={14} className="mr-1" />
-                  Live Demo
+                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink size={14} className="mr-1" />
+                    Live Demo
+                  </a>
                 </Button>
                 <Button 
+                  asChild
                   size="sm" 
                   variant="outline"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.open(project.githubUrl, '_blank')}
                 >
-                  <Github size={14} />
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <Github size={14} />
+                  </a>
                 </Button>
               </div>
             </Card>
