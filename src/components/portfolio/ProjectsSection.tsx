@@ -44,7 +44,7 @@ const projects = [
       "Mobile responsive",
       "SEO optimized"
     ],
-    demoUrl: "", // اضف رابط الديمو الحقيقي هنا لاحقاً
+    demoUrl: "https://rawan-rehab.github.io/LANDING_PAGE/",
     githubUrl: "https://github.com/Rawan-Rehab/LANDING_PAGE.git"
   }
 ];
