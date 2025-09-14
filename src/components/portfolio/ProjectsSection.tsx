@@ -34,6 +34,20 @@ const projects = [
     githubUrl: "https://github.com/Rawan-Rehab/design.git"
   },
   {
+    title: "Create Selector",
+    period: "02/2025 – 03/2025",
+    description: "An interactive element selector tool that demonstrates advanced DOM manipulation and user interface interactions. Built with modern web technologies for seamless user experience.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
+    features: [
+      "Interactive element selection",
+      "Dynamic DOM manipulation",
+      "Modern user interface",
+      "Responsive design"
+    ],
+    demoUrl: "https://rawan-rehab.github.io/Create-Selector/",
+    githubUrl: "https://github.com/Rawan-Rehab/Create-Selector.git"
+  },
+  {
     title: "Landing Page",
     period: "02/2025 – 03/2025",
     description: "It was created by using HTML, CSS, JavaScript, Bootstrap. A beautiful and interactive landing page with smooth animations and modern design.",
