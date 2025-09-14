@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { HeroSection } from "@/components/portfolio/HeroSection";
+import { ProfileSection } from "@/components/portfolio/ProfileSection";
+import { ExperienceSection } from "@/components/portfolio/ExperienceSection";
+import { ProjectsSection } from "@/components/portfolio/ProjectsSection";
+import { EducationSection } from "@/components/portfolio/EducationSection";
+import { ContactSection } from "@/components/portfolio/ContactSection";
+import { Navigation } from "@/components/portfolio/Navigation";
+import { ScrollToTop } from "@/components/portfolio/ScrollToTop";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background overflow-x-hidden">
+      <Navigation />
+      <div id="hero">
+        <HeroSection />
       </div>
+      <div id="about">
+        <ProfileSection />
+      </div>
+      <div id="experience">
+        <ExperienceSection />
+      </div>
+      <div id="projects">
+        <ProjectsSection />
+      </div>
+      <div id="education">
+        <EducationSection />
+      </div>
+      <div id="contact">
+        <ContactSection />
+      </div>
+      <ScrollToTop />
     </div>
   );
 };
