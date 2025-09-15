@@ -48,6 +48,20 @@ const projects = [
     githubUrl: "https://github.com/Rawan-Rehab/Create-Selector.git"
   },
   {
+    title: "Test Email",
+    period: "02/2025 – 03/2025",
+    description: "A comprehensive email testing application that demonstrates email functionality and user interface design. Built with modern web technologies for reliable email handling and validation.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Email APIs"],
+    features: [
+      "Email validation system",
+      "Modern user interface",
+      "Responsive design",
+      "Interactive testing tools"
+    ],
+    demoUrl: "https://rawan-rehab.github.io/challenge-one/",
+    githubUrl: "https://github.com/Rawan-Rehab/challenge-one.git"
+  },
+  {
     title: "Landing Page",
     period: "02/2025 – 03/2025",
     description: "It was created by using HTML, CSS, JavaScript, Bootstrap. A beautiful and interactive landing page with smooth animations and modern design.",
